@@ -1,0 +1,34 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>Training</groupId>
+  <artifactId>Training</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <build>
+	  
+	  	  <!-- https://mvnrepository.com/artifact/net.sourceforge.jexcelapi/jxl -->
+<dependency>
+    <groupId>net.sourceforge.jexcelapi</groupId>
+    <artifactId>jxl</artifactId>
+    <version>2.6</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/org.netbeans.api/org-openide-awt -->
+<dependency>
+    <groupId>org.netbeans.api</groupId>
+    <artifactId>org-openide-awt</artifactId>
+    <version>RELEASE200</version>
+</dependency>
+
+
+    <sourceDirectory>src</sourceDirectory>
+    <plugins>
+      <plugin>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version>
+        <configuration>
+          <release>17</release>
+        </configuration>
+      </plugin>
+    </plugins>
+  </build>
+</project>
